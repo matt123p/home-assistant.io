@@ -35,7 +35,7 @@ We have worked with creator [Marcel Zuidwijk](https://www.zuidwijk.com) to devel
 
 The Zigbee Energy Profile is a wireless energy standard to provide real-time information about electricity usage. This standard is available in some meters in the US, UK and Australia. This is not "normal" Zigbee as implemented by Home Assistant but requires special certified hardware.
 
-We are not currently aware of a device that implements this which supports a local API and is compatible with Home Assistant.
+In the UK, [Hildebrand Glow](https://shop.glowmarkt.com/products/display-and-cad-combined-for-smart-meter-customers) sell a Smart Meter display that will report directly to home assistant using MQTT.  See this [thread](https://community.home-assistant.io/t/glow-hildebrand-display-local-mqtt-access-template-help/428638) for more information on how to set it up.
 
 #### Reading the meter via a pulse counter
 
